@@ -5,131 +5,197 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>郭元傑的個人網頁</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .pink-heading {
+      color: #d6336c;
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .specialty-section img {
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .carousel-item img {
+      object-fit: cover;
+      height: 400px;
+    }
+    .cake-card img {
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .cake-card {
+      margin: 10px;
+    }
+    .testimonials {
+      background-color: #f1f3f5;
+      padding: 40px 0;
+    }
+    .accordion-button {
+      background-color: #d6336c;
+      color: white;
+    }
+    .accordion-body {
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-  
-  
-<div class="row text-center">
   <div class="container">
-    <h2>1113211052</h2>
-    <h1>你好，我是郭元傑</h1>
-    <p>我喜歡打羽球，也喜歡學習新的程式設計知識，未來希望成為一名軟體工程師。</p>
-    
-      <div class="row">
-        <div class="col-4">
-         <img src="6.png" class="d-block w-100" alt="6.png">
-        </div>
-
-        <div class="col-4">
-        <img src="2.png" class="d-block w-100" alt="2.png">
-        </div>
-
-        <div class="col-4">
-        <img src="3.png" class="d-block w-100" alt="3.png">
-        </div>
+    <h1 class="pink-heading">
+    <div style="text-align: left;">
+      Cake Delivery in Scaynes Hill
+    </div>
+    </h1>
+    <div style="text-align: left;">
+    <h3>Savour the taste of luxury with our delectable cakes in Scaynes Hill. Perfect for any occasion, from indulgent brownies for your sweet cravings to last-minute, bespoke birthday cakes. Trust us to bring sweetness to your doorstep, every time.</h3>
+    </div>
+    <h2 class="pink-heading">
+    <div style="text-align: left;">
+    Our Specialities
+    </div>
+    </h2>
+    <div class="row text-center specialty-section">
+      <div class="col-md-3">
+        <img src="lemon-raspberry-cake.jpg" class="d-block w-100" alt="Lemon Raspberry Cake">
+        <h3>
+          <div style="text-align: left;">
+            Cakes
+          </div>
+        </h3>
       </div>
-  </div>
-</div>
-<div class="container">
+      <div class="col-md-3">
+        <img src="rolo-chocolate-brownies.jpg" class="d-block w-100" alt="Rolo Chocolate Brownies">
+        <h3>
+          <div style="text-align: left;">
+            Weddings & Events
+        </div>
+      </h3>
+      </div>
+      <div class="col-md-3">
+        <img src="peppermint-chocolate-slice.jpg" class="d-block w-100" alt="Peppermint Chocolate Slice">
+        <h3>
+        <div style="text-align: left;">
+          Macarons
+        </div>
+        </h3>
+      </div>
+      <div class="col-md-3">
+        <img src="caramel-crunch-cake.jpg" class="d-block w-100" alt="Caramel Crunch Cake">
+        <h3>
+          <div style="text-align: left;">
+            Cupcakes
+          </div></h3>
+      </div>
+    </div>
+
+    <h2 class="pink-heading">
+      <div style="text-align: left;">
+        About Us
+      </div>
+    </h2>
     <div class="row">
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="col-12">
-      <img src="6.png" class="d-block w-100" alt="6.png">
-    </div>
-    </div>
-    <div class="carousel-item">
-      <div class="col-12">
-      <img src="2.png" class="d-block w-100" alt="2.png">
-    </div>
-    </div>
-    <div class="carousel-item">
-      <div class="col-12">
-      <img src="3.png" class="d-block w-100" alt="3.png">
-    </div>
-    </div>
-  </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-  <div class="container">
-  <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      <div class="col-md-6">
+        <p>We specialise in creating beautiful and original cakes, cupcakes, tiered cakes, novelty cakes, macarons, and wedding cakes for all occasions, including birthdays, corporate events, and weddings.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="two_smiling_women_standing_in_a_bright_kitchen_behind.jpg" class="d-block w-100" alt="Team Image">
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
-      </button>
+
+    <h2 class="pink-heading">
+      <div style="text-align: left;">
+        Cake Collection
+      </div>
     </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+    <div class="row">
+      <div class="col-md-2 cake-card">
+        <img src="cotton-candy-cake.jpg" alt="Cotton Candy Cake">
+        <h6>Cotton Candy Cake</h6>
+        <p>£45.00</p>
+      </div>
+      <div class="col-md-2 cake-card">
+        <img src="chocolate-lovers-cake.jpg" alt="Chocolate Lovers Cake">
+        <h6>Chocolate Lovers Cake</h6>
+        <p>£45.00</p>
+      </div>
+      <div class="col-md-2 cake-card">
+        <img src="lemon-raspberry-cake.jpg" alt="Lemon Raspberry Cake">
+        <h6>Lemon Raspberry Cake</h6>
+        <p>£45.00</p>
+      </div>
+      <div class="col-md-2 cake-card">
+        <img src="wedding-cake.jpg" alt="wedding-cake">
+        <h6>wedding-cake</h6>
+        <p>£45.00</p>
+      </div> 
+      <div class="col-md-2 cake-card">
+        <h6 class="pink-heading">See</h6>
+        <h6 class="pink-heading">More</h6>
+        <h6 class="pink-heading">Cake</h6>
+        <h6 class="pink-heading">----></h6>
+      </div>
+      
+      
+    </div>
+
+    <h2 class="pink-heading">
+      <div style="text-align: left;">
+        Happy Customers
+      </div>
+    </h2>
+    <div class="row testimonials">
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>“I’m always skeptical about ordering cakes online, but you’ve changed my mind. The lemon drizzle cake was simply divine...”</p>
+          <p>- Sophie, Haywards Heath</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>“I ordered a chocolate fudge cake for my wife’s birthday and it was a hit! The cake was rich, moist, and delivered right on time...”</p>
+          <p>- James, Scaynes Hill</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>“As a busy mom, I rarely have time to bake. Your brownies were a lifesaver for my son’s school event...”</p>
+          <p>- Emily, Lindfield</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
-      </button>
+
+    <h2 class="pink-heading">
+      <div style="text-align: left;">
+        On the Blog
+      </div>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+    <div class="row">
+      <div class="col-md-4">
+        <img src="chiai-milk-chocolate-chip-cookies.jpg" class="d-block w-100" alt="Chai Milk Chocolate Chip Cookies">
+        <h3>Chai Milk Chocolate Chip Cookies</h3>
+        <p>January 21, 2024</p>
+      </div>
+      <div class="col-md-4">
+        <img src="rolo-chocolate-brownies.jpg" class="d-block w-100" alt="Rolo Chocolate Brownies">
+        <h3>Rolo Chocolate Brownies</h3>
+        <p>January 21, 2024</p>
+      </div>
+      <div class="col-md-4">
+        <img src="peppermint-chocolate-slice.jpg" class="d-block w-100" alt="Peppermint Chocolate Slice">
+        <h3>Peppermint Chocolate Slice</h3>
+        <p>January 21, 2024</p>
       </div>
     </div>
+
   </div>
-</div>
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  
-  </tbody>
-</table>
-</div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
